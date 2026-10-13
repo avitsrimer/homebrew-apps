@@ -7,11 +7,11 @@ cask "bitbucket-cli" do
     end
   end
 
-  version "0.6.3"
+  version "0.7.0"
 
   on_macos do
     on_arm do
-      sha256 "279ef7d70a0d2193f7668c2af7688c53676e33c021e3b305fae0fb0864fd212b"
+      sha256 "026e9538f1d0e4b782412c68b99e764c051483f3d47285cbeee904a02b18bd23"
       url "https://github.com/avitsrimer/bitbucket-cli/releases/download/v#{version}/bb_#{version}_darwin_arm64.tar.gz"
     end
   end
